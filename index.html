@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./src/img/icone.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./src/css/all.min.css">
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!-- header -->
+  <header class="cabecalho">
+    <img class="logo" src="./src/img/logo.png">
+    <div class="container">
+      <form>
+        <input class="pesquisa" type="text" placeholder="&nbsp;&nbsp;&nbsp;pesquisa por filme.....">
+        <button class="lupa" type="submit">
+          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </button>
+      </form>
+    </div>
+    <div class="menu">
+      <button class="menu_btn" type="submit" id="action-btn"><a href="#"><i
+            class="fas fa-bars"></i>&nbsp;&nbsp;Categoria</a></button>
+    </div>
+  </header>
+  <!-- fim do header -->
+
+  <!-- submenu -->
+  <div class="submenu" id="container">
+    <ul class="submenu_lista">
+      <li><a href="/genero/lancamentos" title="Lançamentos">Lançamentos</a></li>
+      <li><a href="./categoria/acaopag1.html" title="Ação">Ação</a></li>
+      <li><a href="/genero/animacao" title="Animação">Animação</a></li>
+      <li><a href="/genero/aventura" title="Aventura">Aventura</a></li>
+      <li><a href="/genero/biografia" title="Biografia">Biografia</a></li>
+      <li><a href="/genero/comedia" title="Comédia">Comédia</a></li>
+      <li><a href="/genero/comedia-romantica" title="Comédia Romântica">Comédia Romântica</a></li>
+      <li><a href="/genero/drama" title="Drama">Drama</a></li>
+      <li><a href="/genero/faroeste" title="Faroeste">Faroeste</a></li>
+      <li><a href="./categoria/ficcaopag1.html" title="Ficção Científica">Ficção Científica</a></li>
+      <li><a href="/genero/guerra" title="Guerra">Guerra</a></li>
+      <li><a href="/genero/policial" title="Policial">Policial</a></li>
+      <li><a href="/genero/romance" title="Romance">Romance</a></li>
+      <li><a href="/genero/suspense" title="Suspense">Suspense</a></li>
+      <li><a href="/genero/terror" title="Terror">Terror</a></li>
+      <li><a href="/series/" title="Séries Online">Séries Online</a></li>
+    </ul>
+  </div>
+  <!-- fim do submenu -->
+
+
+
+  <!-- titulo -->
+  <div class="titulo">
+    <h2>
+      Lançamentos&nbsp;&nbsp;
+      <a class="vt" href="./genero/lançamento/filme.html" title="Ver todos os Lançamentos">
+        <i class="fas fa-fast-forward"></i>
+      </a>
+    </h2>
+    <!-- fim do titulo -->
+    <!-- carousel -->
+  </div>
+  <div class="main-carousel">
+    <div class="cell"><img src="./src/img/a-primeira-profecia.jpg" alt=""></div>
+
+    <div class="cell"><img src="./src/img/apocalipse-do-gelo.jpg" alt=""></div>
+    <div class="cell"><img src="./src/img/briquedo-diaboligo.jpg" alt=""></div>
+    <div class="cell"><img src="./src/img/desespero-profundo.jpg" alt=""></div>
+    <div class="cell"><img src="./src/img/todos-menos-voce.jpg" alt=""></div>
+    <div class="cell"><img src="./src/img/rede-de-vinganca.jpg" alt=""></div>
+    <div class="cell"><img src="./src/img/pobres-criaturas.jpg" alt=""></div>
+    <div class="cell"><img src="./src/img/o-superespiao.jpg" alt=""></div>
+    <div class="cell"><img src="./src/img/o-duble.jpg" alt=""></div>
+    <div class="cell"><img src="./src/img/madame-teia.jpg" alt=""></div>
+    <div class="cell"><img src="./src/img/kungfu-panda-4.jpg" alt=""></div>
+    <div class="cell"><img src="./src/img/guerra-civil.jpg" alt=""></div>
+    <div class="cell"><img src="./src/img/godizila-minus-one.jpg" alt=""></div>
+    <div class="cell"><img src="./src/img/godizila-kong-o-novo-imperio.jpg" alt=""></div>
+    <div class="cell"><img src="./src/img/garra-de-ferro.jpg" alt=""></div>
+    <div class="cell"><img src="./src/img/duna-parte-dois.jpg" alt=""></div>
+    <div class="cell"><img src="./src/img/capa1.jpg" alt=""></div>
+    <div class="cell"><img src="./src/img/capa2.jpg" alt=""></div>
+    <div class="cell"><img src="./src/img/capa3.jpg" alt=""></div>
+    <div class="cell"><img src="./src/img/capa4.jpg" alt=""></div>
+    <div class="cell"><img src="./src/img/capa5.jpg" alt=""></div>
+    <div class="cell"><img src="./src/img/capa6.jpg" alt=""></div>
+    <div class="cell"><img src="./src/img/capa7.jpg" alt=""></div>
+    <div class="cell"><img src="./src/img/capa8.jpg" alt=""></div>
+  </div>
+
+  <!-- fim do carousel -->
+  <!-- main -->
+  <main class="main">
+
+    <div class="h-2">
+      <h2>Filmes Online&nbsp;</h2>
+      <a class="vt" href="#" title="Ver todos os filmes"><i class="fas fa-fast-forward"></i></a>
+    </div>
+
+    <div class="box">
+
+      <div class="poster">
+        <a href="#" title="Assistir A Primeira Profecia Online Dublado">
+          <img class="mp" src="./src/img/a-primeira-profecia.jpg" loading="lazy" decoding="async" width="117"
+            height="175" alt="Imagem A Primeira Profecia">
+          <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+        </a>
+        <div class="ano">2024</div>
+        <div class="rate"><i class=" star fas fa-star"></i>6.7</div>
+        <a class="t" href="#">A Primeira Profecia</a>
+        <div class="details">
+          <span class="t-tit">A Primeira Profecia</span>
+          <div class="t-bar">
+            <span class="t-ano">2024</span>
+            <span class="t-tempo">119 min</span>
+            <span class="t-imdb"><strong>IMDb: </strong>6.7</span>
+          </div>
+          <span class="t-sin">Uma jovem americana é enviada a Roma para começar uma vida de serviço ?nbsp; Igreja.
+            Ela acaba desvendando uma aterrorizante conspiração que deseja provocar o nascimento do mal
+            encarnado.</span>
+          <div class="t-gen">
+            <span>Terror</span>
+          </div>
+          <div class="t-audio">
+            <span>Dublado</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="poster">
+        <a href="#" title="Assistir A Primeira Profecia Online Dublado">
+          <img class="mp" src="./src/img/rapp-espelho-da-morte.jpg" loading="lazy" decoding="async" width="117"
+            height="175" alt="">
+          <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+        </a>
+        <div class="ano">2023</div>
+        <div class="rate"><i class=" star fas fa-star"></i>6.3</div>
+        <a class="t" href="#">Nelly Rapp e o Espelho da Morte</a>
+        <div class="details">
+          <span class="t-tit">Nelly Rapp e o Espelho da Morte</span>
+          <div class="t-bar">
+            <span class="t-ano">2023</span>
+            <span class="t-tempo">96 min</span>
+            <span class="t-imdb"><strong>IMDb: </strong>6.3</span>
+          </div>
+          <span class="t-sin">Nelly e o cachorro London são acompanhados
+            por Valle enquanto eles se dirigem para a Floresta Negra para
+            encontrar o Espelho da Morte. Uma viagem que os leva cada vez mais fundo na floresta e até ao local onde a
+            mãe de Nelly desapareceu.
+          </span>
+          <div class="t-gen">
+            <span>Aventura</span>
+            <span>Comédia</span>
+          </div>
+          <div class="t-audio">
+            <span>Dublado</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="poster">
+        <a href="https://gofilmes.me/godzilla-e-kong-o-novo-imperio"
+          title="Assistir Godzilla e Kong: O Novo Império Online Dublado e Legendado">
+          <img class="thumb" src="https://image.tmdb.org/t/p/w220_and_h330_bestv2/kVldJsKclRZ1vCjf42dnUCUINEx.jpg"
+            alt="Godzilla e Kong: O Novo Império">
+          <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+        </a>
+        <div class="ano">2024</div>
+        <div class="rate"><i class=" star fas fa-star"></i>6.5</div><a class="t"
+          href="https://gofilmes.me/godzilla-e-kong-o-novo-imperio">Godzilla e Kong: O Novo Império</a>
+        <div class="details"><span class="t-tit">Godzilla e Kong: O Novo Império</span>
+          <div class="t-bar"><span class="t-ano">2024</span><span class="t-tempo">115 min</span><span
+              class="t-imdb"><strong>IMDb: </strong>6.5</span></div><span class="t-sin">O poderoso Kong e o temível
+            Godzilla se unem contra uma colossal ameaça mortal escondida no mundo dos humanos, que ameaça a existência
+            de sua espécie e da nossa. Mergulhando profundamente nos mistérios da Ilha da Caveira e nas origens da Terra
+            Oca, o filme irá explorar a antiga batalha de Titãs que ajudou a forjar esses seres extraordinários e os
+            ligou �&nbsp; humanidade para sempre.</span>
+          <div class="t-gen"><span>Ação</span><span>Aventura</span><span>Ficção</span></div>
+          <div class="t-audio"><span>Dublado e Legendado</span></div>
+        </div>
+      </div>
+
+      <div class="poster">
+        <a href="./categoria/acao/godzilla-minus-one.html" title="Assistir Godzilla Minus One Online Legendado"><img
+            class="thumb" src="https://image.tmdb.org/t/p/w220_and_h330_bestv2/av8ERPRsvMQ8kGRWFccaU6DgBma.jpg"
+            alt="Godzilla Minus One">
+          <div class="play"><a class="playcine" href="./categoria/acao/godzilla-minus-one.html"><i class="fas fa-play"></i></a></div>
+        </a>
+        <div class="ano">2023</div>
+        <div class="rate"><i class=" star fas fa-star"></i>8.1</div><a class="t"
+          href="./categoria/acao/godzilla-minus-one.html">Godzilla Minus One</a>
+        <div class="details"><span class="t-tit">Godzilla Minus One</span>
+          <div class="t-bar"><span class="t-ano">2023</span><span class="t-tempo">124 min</span><span
+              class="t-imdb"><strong>IMDb: </strong>8.1</span></div><span class="t-sin">Em um Japão social e
+            economicamente devastado após o término da Segunda Guerra Mundial, a situação chega a um nível ainda mais
+            crítico quando uma gigantesca e misteriosa criatura surge do mar para assolar o país.</span>
+          <div class="t-gen"><span>Ação</span><span>Aventura</span><span>Ficção</span></div>
+          <div class="t-audio"><span>Legendado</span></div>
+        </div>
+      </div>
+
+      <div class="poster">
+        <a href="https://gofilmes.me/ghostbusters-apocalipse-de-gelo"
+          title="Assistir Ghostbusters: Apocalipse de Gelo Online Dublado e Legendado"><img class="thumb"
+            src="https://image.tmdb.org/t/p/w220_and_h330_bestv2/boObGdocQS07Nu7IrettgA5oRTp.jpg"
+            alt="Ghostbusters: Apocalipse de Gelo">
+          <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+        </a>
+        <div class="ano">2024</div>
+        <div class="rate"><i class=" star fas fa-star"></i>6.3</div><a class="t"
+          href="https://gofilmes.me/ghostbusters-apocalipse-de-gelo">Ghostbusters: Apocalipse de Gelo</a>
+        <div class="details"><span class="t-tit">Ghostbusters: Apocalipse de Gelo</span>
+          <div class="t-bar"><span class="t-ano">2024</span><span class="t-tempo">115 min</span><span
+              class="t-imdb"><strong>IMDb: </strong>6.3</span></div><span class="t-sin">Quando a descoberta de um
+            artefato antigo libera uma força do mal, os Caça-Fantasmas originais e os novos precisam unir forças para
+            proteger Nova York e salvar o mundo de uma segunda Era do Gelo.</span>
+          <div class="t-gen"><span>Aventura</span><span>Comédia</span></div>
+          <div class="t-audio"><span>Dublado e Legendado</span></div>
+        </div>
+      </div>
+
+      <div class="poster"><a href="https://gofilmes.me/kung-fu-panda-4"
+          title="Assistir Kung Fu Panda 4 Online Dublado"><img class="thumb"
+            src="https://image.tmdb.org/t/p/w220_and_h330_bestv2/nqXsAaQsKw2gKpkfhIgjXNDRqg7.jpg" alt="Kung Fu Panda 4">
+          <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+        </a>
+        <div class="ano">2024</div>
+        <div class="rate"><i class=" star fas fa-star"></i>6.3</div><a class="t"
+          href="https://gofilmes.me/kung-fu-panda-4">Kung Fu Panda 4</a>
+        <div class="details"><span class="t-tit">Kung Fu Panda 4</span>
+          <div class="t-bar"><span class="t-ano">2024</span><span class="t-tempo">94 min</span><span
+              class="t-imdb"><strong>IMDb: </strong>6.3</span></div><span class="t-sin">Após ser escolhido para se
+            tornar o Líder Espiritual do Vale da Paz, Po precisa encontrar e treinar um novo Dragão Guerreiro, enquanto
+            uma feiticeira perversa busca trazer todos os vilões-mestres já derrotados por Po do reino
+            espiritual.</span>
+          <div class="t-gen"><span>Animação</span></div>
+          <div class="t-audio"><span>Dublado</span></div>
+        </div>
+      </div>
+
+      <div class="poster"><a href="https://gofilmes.me/desespero-profundo"
+          title="Assistir Desespero Profundo Online Dublado e Legendado"><img class="thumb"
+            src="https://image.tmdb.org/t/p/w220_and_h330_bestv2/ktxq0LYgl41I2DUn49TYIaS9dZR.jpg"
+            alt="Desespero Profundo">
+          <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+        </a>
+        <div class="ano">2024</div>
+        <div class="rate"><i class=" star fas fa-star"></i>4.5</div><a class="t"
+          href="https://gofilmes.me/desespero-profundo">Desespero Profundo</a>
+        <div class="details"><span class="t-tit">Desespero Profundo</span>
+          <div class="t-bar"><span class="t-ano">2024</span><span class="t-tempo">90 min</span><span
+              class="t-imdb"><strong>IMDb: </strong>4.5</span></div><span class="t-sin">Quando um avião cai no Oceano
+            Pacífico, �&nbsp; beira de um precipício submarino e presos em uma bolsa de ar dentro do avião, os
+            sobreviventes precisam correr contra o tempo enquanto enfrentam tubarões sedentos por sangue.</span>
+          <div class="t-gen"><span>Ação</span><span>Terror</span><span>Suspense</span></div>
+          <div class="t-audio"><span>Dublado e Legendado</span></div>
+        </div>
+      </div>
+
+      <div class="poster"><a href="https://gofilmes.me/garra-de-ferro"
+          title="Assistir Garra de Ferro Online Dublado e Legendado"><img class="thumb"
+            src="https://image.tmdb.org/t/p/w220_and_h330_bestv2/hRaEEt7wZN2Iyyh23Ge8Dqwzqlk.jpg" alt="Garra de Ferro">
+          <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+        </a>
+        <div class="ano">2023</div>
+        <div class="rate"><i class=" star fas fa-star"></i>7.7</div><a class="t"
+          href="https://gofilmes.me/garra-de-ferro">Garra de Ferro</a>
+        <div class="details"><span class="t-tit">Garra de Ferro</span>
+          <div class="t-bar"><span class="t-ano">2023</span><span class="t-tempo">132 min</span><span
+              class="t-imdb"><strong>IMDb: </strong>7.7</span></div><span class="t-sin">A história real dos inseparáveis
+            irmãos Von Erich, que fizeram história no mundo extremamente competitivo do wrestling profissional no início
+            dos anos 1980.</span>
+          <div class="t-gen"><span>Drama</span><span>Biografia</span></div>
+          <div class="t-audio"><span>Dublado e Legendado</span></div>
+        </div>
+      </div>
+
+      <div class="poster"><a href="https://gofilmes.me/as-marvels"
+          title="Assistir As Marvels Online Dublado e Legendado"><img class="thumb"
+            src="https://image.tmdb.org/t/p/w220_and_h330_bestv2/sPmmgdmApfjX9x2mg02bo0aUOU9.jpg" alt="As Marvels">
+          <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+        </a>
+        <div class="ano">2023</div>
+        <div class="rate"><i class=" star fas fa-star"></i>5.7</div><a class="t"
+          href="https://gofilmes.me/as-marvels">As Marvels</a>
+        <div class="details"><span class="t-tit">As Marvels</span>
+          <div class="t-bar"><span class="t-ano">2023</span><span class="t-tempo">105 min</span><span
+              class="t-imdb"><strong>IMDb: </strong>5.7</span></div><span class="t-sin">Quando suas obrigações a levam a
+            uma fenda espacial anômala ligada a um revolucionário Kree, os poderes de Carol Danvers, a Capitã Marvel, se
+            entrelaçam aos de Kamala Khan, a Ms. Marvel, e aos da sobrinha de Carol, astronauta da S.A.B.E.R., Capitã
+            Monica Rambeau. Juntas, esse trio improvável deve ser unir para salvar o universo como "As Marvels".</span>
+          <div class="t-gen"><span>Ação</span><span>Aventura</span><span>Ficção</span></div>
+          <div class="t-audio"><span>Dublado e Legendado</span></div>
+        </div>
+      </div>
+
+      <div class="poster"><a href="https://gofilmes.me/aquaman-2-o-reino-perdido"
+          title="Assistir Aquaman 2: O Reino Perdido Online Dublado e Legendado"><img class="thumb"
+            src="https://image.tmdb.org/t/p/w220_and_h330_bestv2/u6d04lQ3u9YZndcFsxfmLAMB707.jpg"
+            alt="Aquaman 2: O Reino Perdido">
+          <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+        </a>
+        <div class="ano">2024</div>
+        <div class="rate"><i class=" star fas fa-star"></i>5.8</div><a class="t"
+          href="https://gofilmes.me/aquaman-2-o-reino-perdido">Aquaman 2: O Reino Perdido</a>
+        <div class="details"><span class="t-tit">Aquaman 2: O Reino Perdido</span>
+          <div class="t-bar"><span class="t-ano">2024</span><span class="t-tempo">124 min</span><span
+              class="t-imdb"><strong>IMDb: </strong>5.8</span></div><span class="t-sin">Agora mais temível do que nunca,
+            Arraia Negra detém o poder do mítico Tridente Preto e sua ancestral força malévola. Para derrotá-lo, Aquaman
+            recorrerá a seu irmão Orm, o ex-Rei da Atlântida, ainda na prisão, para forjar uma aliança improvável.
+            Juntos, eles vão ter que deixar de lado suas diferenças para proteger seu reino, salvar a família de Aquaman
+            e o mundo da irreversível destruição.</span>
+          <div class="t-gen"><span>Ação</span><span>Aventura</span></div>
+          <div class="t-audio"><span>Dublado e Legendado</span></div>
+        </div>
+      </div>
+
+      <div class="poster"><a href="https://gofilmes.me/duna-parte-dois"
+          title="Assistir Duna: Parte Dois Online Dublado e Legendado"><img class="thumb"
+            src="https://image.tmdb.org/t/p/w220_and_h330_bestv2/miif4N3YWL5mGGlXA2YrHPr2iwz.jpg"
+            alt="Duna: Parte Dois">
+          <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+        </a>
+        <div class="ano">2024</div>
+        <div class="rate"><i class=" star fas fa-star"></i>8.7</div><a class="t"
+          href="https://gofilmes.me/duna-parte-dois">Duna: Parte Dois</a>
+        <div class="details"><span class="t-tit">Duna: Parte Dois</span>
+          <div class="t-bar"><span class="t-ano">2024</span><span class="t-tempo">166 min</span><span
+              class="t-imdb"><strong>IMDb: </strong>8.7</span></div><span class="t-sin">Diante da difícil escolha entre
+            o amor de sua vida e o destino do universo conhecido, Paul Atreides, agora ao lado de Chani e dos Fremen,
+            dará tudo de si para evitar o futuro terrível que só ele pode prever.</span>
+          <div class="t-gen"><span>Ação</span><span>Aventura</span><span>Drama</span></div>
+          <div class="t-audio"><span>Dublado e Legendado</span></div>
+        </div>
+      </div>
+
+      <div class="poster"><a href="https://gofilmes.me/baghead-a-bruxa-dos-mortos"
+          title="Assistir Baghead: A Bruxa dos Mortos Online Dublado e Legendado"><img class="thumb"
+            src="https://image.tmdb.org/t/p/w220_and_h330_bestv2/etvqNR2JPAeJ1eXEdnFEur6uU3K.jpg"
+            alt="Baghead: A Bruxa dos Mortos">
+          <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+        </a>
+        <div class="ano">2024</div>
+        <div class="rate"><i class=" star fas fa-star"></i>5.4</div><a class="t"
+          href="https://gofilmes.me/baghead-a-bruxa-dos-mortos">Baghead: A Bruxa dos Mortos</a>
+        <div class="details"><span class="t-tit">Baghead: A Bruxa dos Mortos</span>
+          <div class="t-bar"><span class="t-ano">2024</span><span class="t-tempo">94 min</span><span
+              class="t-imdb"><strong>IMDb: </strong>5.4</span></div><span class="t-sin">Após o falecimento de seu pai,
+            Iris (Freya Allan) herda um antigo bar e se depara com um segredo obscuro: o local abriga uma entidade capaz
+            de incorporar os mortos. Tentada a explorar os poderes da criatura e ajudar pessoas desesperadas em troca de
+            dinheiro, Iris mergulha em um terreno perigoso. Ao lado de sua melhor amiga Katie (Ruby Barker), ela agora
+            precisa lutar para manter o controle sobre Baghead e descobrir como destruí-la antes que ela as
+            destrua.</span>
+          <div class="t-gen"><span>Terror</span></div>
+          <div class="t-audio"><span>Dublado e Legendado</span></div>
+        </div>
+      </div>
+
+      <div class="poster"><a href="https://gofilmes.me/imaginario-brinquedo-diabolico"
+          title="Assistir Imaginário: Brinquedo Diabólico Online Dublado e Legendado"><img class="thumb"
+            src="https://image.tmdb.org/t/p/w220_and_h330_bestv2/vbgI9lYJPtYrbPdwjtyuN2wUBKJ.jpg"
+            alt="Imaginário: Brinquedo Diabólico">
+          <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+        </a>
+        <div class="ano">2024</div>
+        <div class="rate"><i class=" star fas fa-star"></i>4.7</div><a class="t"
+          href="https://gofilmes.me/imaginario-brinquedo-diabolico">Imaginário: Brinquedo Diabólico</a>
+        <div class="details"><span class="t-tit">Imaginário: Brinquedo Diabólico</span>
+          <div class="t-bar"><span class="t-ano">2024</span><span class="t-tempo">104 min</span><span
+              class="t-imdb"><strong>IMDb: </strong>4.7</span></div><span class="t-sin">Uma mulher retorna com a família
+            para a casa em que cresceu. Sua filha mais jovem logo fica apegada a um ursinho de pelúcia que ela encontra
+            no porão. Apesar da interação parecer divertida, a situação não demora para se tornar sinistra.</span>
+          <div class="t-gen"><span>Terror</span><span>Suspense</span></div>
+          <div class="t-audio"><span>Dublado e Legendado</span></div>
+        </div>
+      </div>
+
+      <div class="poster"><a href="https://gofilmes.me/anatomia-de-uma-queda"
+          title="Assistir Anatomia de uma Queda Online Dublado e Legendado"><img class="thumb"
+            src="https://image.tmdb.org/t/p/w220_and_h330_bestv2/viLDGLkhLpzKsn0Ymbmnkyp3FNj.jpg"
+            alt="Anatomia de uma Queda">
+          <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+        </a>
+        <div class="ano">2023</div>
+        <div class="rate"><i class=" star fas fa-star"></i>7.8</div><a class="t"
+          href="https://gofilmes.me/anatomia-de-uma-queda">Anatomia de uma Queda</a>
+        <div class="details"><span class="t-tit">Anatomia de uma Queda</span>
+          <div class="t-bar"><span class="t-ano">2023</span><span class="t-tempo">151 min</span><span
+              class="t-imdb"><strong>IMDb: </strong>7.8</span></div><span class="t-sin">Uma mulher é suspeita de ter
+            assassinado o marido, e o seu filho cego enfrenta um dilema moral como única testemunha.</span>
+          <div class="t-gen"><span>Drama</span><span>Policial</span><span>Suspense</span></div>
+          <div class="t-audio"><span>Dublado e Legendado</span></div>
+        </div>
+      </div>
+
+      <div class="poster"><a href="https://gofilmes.me/madame-teia"
+          title="Assistir Madame Teia Online Dublado e Legendado"><img class="thumb"
+            src="https://image.tmdb.org/t/p/w220_and_h330_bestv2/uqFlkWd8o6wyYPTNg8C2L3KEfcu.jpg" alt="Madame Teia">
+          <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+        </a>
+        <div class="ano">2024</div>
+        <div class="rate"><i class=" star fas fa-star"></i>3.7</div><a class="t"
+          href="https://gofilmes.me/madame-teia">Madame Teia</a>
+        <div class="details"><span class="t-tit">Madame Teia</span>
+          <div class="t-bar"><span class="t-ano">2024</span><span class="t-tempo">116 min</span><span
+              class="t-imdb"><strong>IMDb: </strong>3.7</span></div><span class="t-sin">Forçada a confrontar seu
+            passado, Cassandra Webb, uma paramédica em Manhattan que pode ter habilidades de clarividência, cria uma
+            relação com três jovens destinadas a futuros poderosos, se elas conseguirem sobreviver ao presente
+            ameaçador.</span>
+          <div class="t-gen"><span>Ação</span><span>Aventura</span><span>Ficção</span></div>
+          <div class="t-audio"><span>Dublado e Legendado</span></div>
+        </div>
+      </div>
+
+      <div class="poster"><a href="https://gofilmes.me/argylle-o-superespiao"
+          title="Assistir Argylle: O Superespião Online Dublado e Legendado"><img class="thumb"
+            src="https://image.tmdb.org/t/p/w220_and_h330_bestv2/1ojCiMpYmCciIFuEcgLOOGLbUND.jpg"
+            alt="Argylle: O Superespião">
+          <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+        </a>
+        <div class="ano">2024</div>
+        <div class="rate"><i class=" star fas fa-star"></i>5.9</div><a class="t"
+          href="https://gofilmes.me/argylle-o-superespiao">Argylle: O Superespião</a>
+        <div class="details"><span class="t-tit">Argylle: O Superespião</span>
+          <div class="t-bar"><span class="t-ano">2024</span><span class="t-tempo">139 min</span><span
+              class="t-imdb"><strong>IMDb: </strong>5.9</span></div><span class="t-sin">Quando as tramas dos livros de
+            uma reclusa autora de romances de espionagem sobre o agente secreto Argylle começam a espelhar as ações de
+            uma verídica organização de espionagem, as linhas entre o fictício e o real começam a se entrelaçar.</span>
+          <div class="t-gen"><span>Ação</span><span>Comédia</span><span>Suspense</span></div>
+          <div class="t-audio"><span>Dublado e Legendado</span></div>
+        </div>
+      </div>
+
+      <div class="poster"><a href="https://gofilmes.me/pobres-criaturas"
+          title="Assistir Pobres Criaturas Online Dublado e Legendado"><img class="thumb"
+            src="https://image.tmdb.org/t/p/w220_and_h330_bestv2/reIqVavL4QESfQIMT5PW8CvRH13.jpg"
+            alt="Pobres Criaturas">
+          <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+        </a>
+        <div class="ano">2024</div>
+        <div class="rate"><i class=" star fas fa-star"></i>8.3</div><a class="t"
+          href="https://gofilmes.me/pobres-criaturas">Pobres Criaturas</a>
+        <div class="details"><span class="t-tit">Pobres Criaturas</span>
+          <div class="t-bar"><span class="t-ano">2024</span><span class="t-tempo">141 min</span><span
+              class="t-imdb"><strong>IMDb: </strong>8.3</span></div><span class="t-sin">A jovem Bella Baxter é trazida
+            de volta �&nbsp; vida pelo cientista Dr. Godwin Baxter. Querendo ver mais do mundo, ela foge com um advogado
+            e viaja pelos continentes. Livre dos preconceitos de sua época, Bella exige igualdade e libertação.</span>
+          <div class="t-gen"><span>Comédia</span><span>Comédia Romântica</span><span>Drama</span><span>Ficção</span>
+          </div>
+          <div class="t-audio"><span>Dublado e Legendado</span></div>
+        </div>
+      </div>
+
+      <div class="poster"><a href="https://gofilmes.me/todos-menos-voce"
+          title="Assistir Todos Menos Você Online Dublado e Legendado"><img class="thumb"
+            src="https://image.tmdb.org/t/p/w220_and_h330_bestv2/yGUMbnL4ciPaCiAniyP0UPdz9xy.jpg"
+            alt="Todos Menos Você">
+          <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+        </a>
+        <div class="ano">2023</div>
+        <div class="rate"><i class=" star fas fa-star"></i>6.6</div><a class="t"
+          href="https://gofilmes.me/todos-menos-voce">Todos Menos Você</a>
+        <div class="details"><span class="t-tit">Todos Menos Você</span>
+          <div class="t-bar"><span class="t-ano">2023</span><span class="t-tempo">103 min</span><span
+              class="t-imdb"><strong>IMDb: </strong>6.6</span></div><span class="t-sin">Bea e Ben parecem o casal
+            perfeito, mas depois de um primeiro encontro incrível, algo acontece que transforma sua atração ardente em
+            gelo - até que eles se encontram inesperadamente juntos em um casamento na Austrália. Então eles fazem o que
+            dois adultos maduros fariam: fingem ser um casal.</span>
+          <div class="t-gen"><span>Comédia</span><span>Comédia Romântica</span></div>
+          <div class="t-audio"><span>Dublado e Legendado</span></div>
+        </div>
+      </div>
+
+      <div class="poster"><a href="https://gofilmes.me/beekeeper-rede-de-vinganca"
+          title="Assistir Beekeeper - Rede de Vingança Online Dublado e Legendado"><img class="thumb"
+            src="https://image.tmdb.org/t/p/w220_and_h330_bestv2/cCGFvoxzaBbYM3I68s6F939fybN.jpg"
+            alt="Beekeeper - Rede de Vingança">
+          <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+        </a>
+        <div class="ano">2024</div>
+        <div class="rate"><i class=" star fas fa-star"></i>6.6</div><a class="t"
+          href="https://gofilmes.me/beekeeper-rede-de-vinganca">Beekeeper - Rede de Vingança</a>
+        <div class="details"><span class="t-tit">Beekeeper - Rede de Vingança</span>
+          <div class="t-bar"><span class="t-ano">2024</span><span class="t-tempo">105 min</span><span
+              class="t-imdb"><strong>IMDb: </strong>6.6</span></div><span class="t-sin">Clay está em busca de vingança e
+            não vai parar até acabar com o sistema criminoso responsável pela morte de sua amiga. O plano brutal de
+            Clay, um ex-agente de uma organização secreta poderosa conhecida como “Beekeepers”, ganha dimensões
+            nacionais envolvendo governos e as instituições mais influentes do mundo. Determinado a fazer justiça com
+            suas próprias mãos, ele está disposto a tudo e não vai poupar ninguém para concluir seu plano.</span>
+          <div class="t-gen"><span>Ação</span><span>Suspense</span></div>
+          <div class="t-audio"><span>Dublado e Legendado</span></div>
+        </div>
+      </div>
+
+      <div class="poster"><a href="https://gofilmes.me/zona-de-risco"
+          title="Assistir Zona de Risco Online Dublado e Legendado"><img class="thumb"
+            src="https://image.tmdb.org/t/p/w220_and_h330_bestv2/cCRAMT530bTcZ4xs6E6pTUoAalE.jpg" alt="Zona de Risco">
+          <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+        </a>
+        <div class="ano">2024</div>
+        <div class="rate"><i class=" star fas fa-star"></i>6.5</div><a class="t"
+          href="https://gofilmes.me/zona-de-risco">Zona de Risco</a>
+        <div class="details"><span class="t-tit">Zona de Risco</span>
+          <div class="t-bar"><span class="t-ano">2024</span><span class="t-tempo">113 min</span><span
+              class="t-imdb"><strong>IMDb: </strong>6.5</span></div><span class="t-sin">Uma missão das forças especiais
+            vira um grande desastre e, cercados pelo inimigo em um território remoto nas Filipinas, a única chance de
+            resgate está nas mãos de Reaper (Russel Crowe), um piloto de drone, e Kinney (Liam Hemsworth), um jovem
+            oficial da aeronáutica. Eles têm 48 horas para resgatar os soldados antes que vire um banho de
+            sangue.</span>
+          <div class="t-gen"><span>Ação</span><span>Suspense</span></div>
+          <div class="t-audio"><span>Dublado e Legendado</span></div>
+        </div>
+      </div>
+
+      <div class="poster"><a href="https://gofilmes.me/patos" title="Assistir Patos! Online Dublado"><img class="thumb"
+            src="https://image.tmdb.org/t/p/w220_and_h330_bestv2/apAIqBHMqjKlId60cj7V32bZIS3.jpg" alt="Patos!">
+          <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+        </a>
+        <div class="ano">2023</div>
+        <div class="rate"><i class=" star fas fa-star"></i>6.7</div><a class="t"
+          href="https://gofilmes.me/patos">Patos!</a>
+        <div class="details"><span class="t-tit">Patos!</span>
+          <div class="t-bar"><span class="t-ano">2023</span><span class="t-tempo">83 min</span><span
+              class="t-imdb"><strong>IMDb: </strong>6.7</span></div><span class="t-sin">A família Mallard está um pouco
+            refém da rotina. Enquanto Mack, o pai, se contenta em manter sua família segura nos arredores de um lago da
+            Nova Inglaterra para sempre, Pam, a mãe, está ansiosa para agitar as coisas e mostrar a seus filhos – o
+            adolescente Dax e a patinha Gwen – o mundo inteiro. Quando uma família de patos migratórios aterrissa em seu
+            lago com histórias emocionantes de lugares distantes, Pam convence Mack a embarcar em uma viagem em família,
+            via Nova York, para a Jamaica tropical.</span>
+          <div class="t-gen"><span>Animação</span><span>Aventura</span></div>
+          <div class="t-audio"><span>Dublado</span></div>
+        </div>
+      </div>
+
+
+      <div class="poster">
+        <a href="https://gofilmes.me/o-duble" title="Assistir O Dublê Online Legendado">
+          <img class="thumb" src="https://image.tmdb.org/t/p/w220_and_h330_bestv2/efxeVSnmvtTl95KepNEcGspIsR9.jpg"
+            alt="O Dublê">
+          <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+        </a>
+        <div class="ano">2024</div>
+        <div class="rate"><i class=" star fas fa-star"></i>7.1</div>
+        <a class="t" href="https://gofilmes.me/o-duble">O Dublê</a>
+        <div class="details">
+          <span class="t-tit">O Dublê</span>
+          <div class="t-bar">
+            <span class="t-ano">2024</span>
+            <span class="t-tempo">126 min</span>
+            <span class="t-imdb"><strong>IMDb: </strong>7.1</span>
+          </div>
+          <span class="t-sin">Após um acidente que quase acabou com sua carreira, um dublê precisa descobrir o paradeiro
+            de um astro de cinema desaparecido, desmascarar uma conspiração e tentar reconquistar o amor de sua vida
+            enquanto ainda faz seu trabalho diário.</span>
+          <div class="t-gen">
+            <span>Ação</span>
+            <span>Comédia</span>
+            <span>Drama</span>
+          </div>
+          <div class="t-audio">
+            <span>Legendado</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="poster">
+        <a href="https://gofilmes.me/guerra-civil" title="Assistir Guerra Civil Online Legendado">
+          <img class="thumb" src="https://image.tmdb.org/t/p/w220_and_h330_bestv2/67e620AGIqrwxIesEJd2Nljjo43.jpg"
+            alt="Guerra Civil">
+          <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+        </a>
+        <div class="ano">2024</div>
+        <div class="rate"><i class=" star fas fa-star"></i>7.5</div>
+        <a class="t" href="https://gofilmes.me/guerra-civil">Guerra Civil</a>
+        <div class="details">
+          <span class="t-tit">Guerra Civil</span>
+          <div class="t-bar">
+            <span class="t-ano">2024</span>
+            <span class="t-tempo">109 min</span>
+            <span class="t-imdb"><strong>IMDb: </strong>7.5</span>
+          </div>
+          <span class="t-sin">Em um futuro distópico, um grupo de jornalistas percorre os Estados Unidos durante um
+            intenso conflito que envolve toda a nação.</span>
+          <div class="t-gen">
+            <span>Ação</span>
+            <span>Drama</span>
+            <span>Suspense</span>
+          </div>
+          <div class="t-audio">
+            <span>Legendado</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="poster"><a href="https://gofilmes.me/wonka" title="Assistir Wonka Online Dublado"><img class="thumb"
+            src="https://image.tmdb.org/t/p/w220_and_h330_bestv2/bRaeUi5jS7je6KEpfL03bkT7xxP.jpg" alt="Wonka">
+          <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+        </a>
+        <div class="ano">2023</div>
+        <div class="rate"><i class=" star fas fa-star"></i>7.3</div><a class="t"
+          href="https://gofilmes.me/wonka">Wonka</a>
+        <div class="details"><span class="t-tit">Wonka</span>
+          <div class="t-bar"><span class="t-ano">2023</span><span class="t-tempo">116 min</span><span
+              class="t-imdb"><strong>IMDb: </strong>7.3</span></div><span class="t-sin">Um jovem Willy Wonka cheio de
+            ideias está determinado a mudar o mundo a cada deliciosa mordida de seu chocolate, uma atrás da outra,
+            provando que as melhores coisas da vida sempre começam com um sonho.</span>
+          <div class="t-gen"><span>Aventura</span><span>Comédia</span></div>
+          <div class="t-audio"><span>Dublado</span></div>
+        </div>
+      </div>
+
+
+      <!-- fim do box -->
+    </div>
+
+  </main>
+  <!-- fim da main -->
+
+
+  <!-- titulo -->
+  <div class="titulo">
+    <h2>
+      ÚLTIMOS EPISÓDIOSs&nbsp;&nbsp;
+      <a class="vt" href="./genero/lançamento/filme.html" title="Ver todos os Lançamentos">
+        <i class="fas fa-fast-forward"></i>
+      </a>
+    </h2>
+    <!-- fim do titulo -->
+    <!-- carousel -->
+  </div>
+  <div class="main-carousel">
+    <div class="cell"><img src="https://image.tmdb.org/t/p/w400/bSlYHSM9m2OuzPX73xU2KWWY1yk.jpg" alt=""></div>
+    <div class="cell"><img src="https://image.tmdb.org/t/p/w400/lEVpsZj9h0xRKdRhATcEuegHpOv.jpg" alt="">></div>
+    <div class="cell"><img src="https://image.tmdb.org/t/p/w400/9x2MQUZNiBHYACxg9NV9FcKTcjS.jpg" alt=""></div>
+    <div class="cell"><img src="https://image.tmdb.org/t/p/w400/lBxDdmpCNIIfrPgNQcr7cbVDI6X.jpg" alt=""></div>
+    <div class="cell"><img src="https://image.tmdb.org/t/p/w400/vR4fkDAPiaCALEnohl1cLISvtvA.jpg" alt="">></div>
+    <div class="cell"><img src="https://image.tmdb.org/t/p/w400/kxEcSruu4D3i94tYwbbnW1mSp0C.jpg" alt=""></div>
+    <div class="cell"><img src="https://image.tmdb.org/t/p/w400/4ucPd8H1kR9ITaAuWJ2VpDUg1ii.jpg" alt=""></div>
+    <div class="cell"><img src="https://image.tmdb.org/t/p/w400/9Jn88789lEUIw41nbA2ikjJPiMP.jpg" alt=""></div>
+    <div class="cell"><img src="https://image.tmdb.org/t/p/w400/lF5j5aINqzSXuMRCQsgvEmrFOqN.jpg" alt=""></div>
+    <div class="cell"><img src="https://image.tmdb.org/t/p/w400/lMlSTaD73MiT4R2G4FmL08qeTLS.jpg" alt=""></div>
+    <div class="cell"><img src="https://image.tmdb.org/t/p/w400/dDEj2qS9RGiY6P3Bkzc0EEMaKpR.jpg" alt=""></div>
+    <div class="cell"><img src="https://image.tmdb.org/t/p/w400/pjEmBroEnTSbUMSA0Z3D98XD7q7.jpg" alt=""></div>
+    <div class="cell"><img src="https://image.tmdb.org/t/p/w400/uVnGusAwehV4WdxgKwFg0UJql1R.jpg" alt=""></div>
+    <div class="cell"><img src="https://image.tmdb.org/t/p/w400/wEEeWIrbcnUVxVRMR2dCKHAh8aM.jpg" alt=""></div>
+    <div class="cell"><img src="https://image.tmdb.org/t/p/w400/dKQ9K6DB8cLfFTg0cwqzr8JSYN2.jpg" alt=""></div>
+    <div class="cell"><img src="https://image.tmdb.org/t/p/w400/llzlKcMCvaq7CnRLK3fr2Jj4ivI.jpg" alt=""></div>
+    <div class="cell"><img src="https://image.tmdb.org/t/p/w400/q9N05DCJZ0LvF3dKu9RHE823a8X.jpg" alt=""></div>
+    <div class="cell"><img src="https://image.tmdb.org/t/p/w400/m1rvaIIrDGwSYMt5mWG1WiTndmE.jpg" alt=""></div>
+
+  </div>
+
+  <!-- fim do carousel -->
+
+  <div class="h-2">
+    <h2>Séries Online&nbsp;<a class="vt" href="./genero/lançamento/filme.html" title="Ver todos os Lançamentos">
+        <i class="fas fa-fast-forward"></i>
+      </a></h2>
+    <a class="vt" href="https://gofilmes.me/series/" title="Listar todos as séries"></a>
+  </div>
+  <div class="box">
+    <div class="poster"><a href="https://gofilmes.me/series/furia" title="Assistir Fúria Online Legendado"><img
+          class="mp" src="./src/img/furia.jpg" loading="lazy" decoding="async" width="117" height="175"
+          alt="Imagem Fúria">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a>
+      <div class="ano">2021</div>
+      <div class="rate"><i class=" star fas fa-star"></i>7.1</div><a class="t"
+        href="https://gofilmes.me/series/furia">Fúria</a>
+      <div class="details"><span class="t-tit">Fúria</span>
+        <div class="t-bar"><span class="t-ano">2021</span><span class="t-tempo">51 min</span><span
+            class="t-imdb"><strong>IMDb: </strong>7.1</span></div><span class="t-sin">Asgeir e Ragna se enredam em uma
+          teia de grupos e seguidores radicais de direita - enviando-os em uma jornada dos fiordes da Noruega a Berlim,
+          preparando-se para a eleição na Alemanha.</span>
+        <div class="t-gen"><span class="t-gen">Crime</span><span class="t-gen">Drama</span><span
+            class="t-gen">Suspense</span></div>
+        <div class="t-audio"><span>Legendado</span></div>
+      </div>
+    </div>
+
+
+    <div class="poster"><a href="https://gofilmes.me/series/as-cronicas-de-spiderwick"
+        title="Assistir As Crônicas de Spiderwick Online Legendado"><img class="mp"
+          src="./src/img/as-cronicas-de-spiderwick.jpg" loading="lazy" decoding="async" width="117" height="175"
+          alt="Imagem As Crônicas de Spiderwick">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a>
+      <div class="ano">2024</div>
+      <div class="rate"><i class=" star fas fa-star"></i>5.1</div><a class="t"
+        href="https://gofilmes.me/series/as-cronicas-de-spiderwick">As Crônicas de Spiderwick</a>
+      <div class="details"><span class="t-tit">As Crônicas de Spiderwick</span>
+        <div class="t-bar"><span class="t-ano">2024</span><span class="t-tempo">48 min</span><span
+            class="t-imdb"><strong>IMDb: </strong>5.1</span></div><span class="t-sin">Acompanha a família Grace, que se
+          muda para a casa de seus ancestrais e desvenda um mistério sombrio sobre seu tio-avô, que descobriu o mundo
+          paralelo e secreto das fadas.</span>
+        <div class="t-gen"><span class="t-gen">Ação</span><span class="t-gen">Aventura</span><span
+            class="t-gen">Drama</span></div>
+        <div class="t-audio"><span>Legendado</span></div>
+      </div>
+    </div>
+
+    <div class="poster"><a href="https://gofilmes.me/series/insomnia" title="Assistir Insomnia Online Legendado"><img
+          class="mp" src="https://image.tmdb.org/t/p/w150_and_h225_bestv2/bZSjinoYuNDynV3sMyX0GIeZhhU.jpg"
+          loading="lazy" decoding="async" width="117" height="175" alt="Imagem Insomnia">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a>
+      <div class="ano">2024</div>
+      <div class="rate"><i class=" star fas fa-star"></i>5.7</div><a class="t"
+        href="https://gofilmes.me/series/insomnia">Insomnia</a>
+      <div class="details"><span class="t-tit">Insomnia</span>
+        <div class="t-bar"><span class="t-ano">2024</span><span class="t-tempo">48 min</span><span
+            class="t-imdb"><strong>IMDb: </strong>5.7</span></div><span class="t-sin">Emma, uma mulher bem-sucedida,
+          teme perder a cabeça depois de sofrer de privação de sono duas semanas antes de completar 40 anos. Somente
+          investigando a verdade de seu passado doloroso, ela poderá encontrar as respostas para seu presente.</span>
+        <div class="t-gen"><span class="t-gen">Drama</span><span class="t-gen">Suspense</span></div>
+        <div class="t-audio"><span>Legendado</span></div>
+      </div>
+    </div>
+
+    <div class="poster"><a href="https://gofilmes.me/series/candy-cruz" title="Assistir Candy Cruz Online Dublado"><img
+          class="mp" src="./src/img/candy-cruz.jpg" loading="lazy" decoding="async" width="117" height="175"
+          alt="Imagem Candy Cruz">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a>
+      <div class="ano">2023</div>
+      <div class="rate"><i class=" star fas fa-star"></i>6.4</div><a class="t"
+        href="https://gofilmes.me/series/candy-cruz">Candy Cruz</a>
+      <div class="details"><span class="t-tit">Candy Cruz</span>
+        <div class="t-bar"><span class="t-ano">2023</span><span class="t-tempo">30 min</span><span
+            class="t-imdb"><strong>IMDb: </strong>6.4</span></div><span class="t-sin">Candy adora cozinhar para quem
+          ama, mas quando entra na maior competição culinária da TV, ela descobre que suas receitas podem transformar
+          vidas.</span>
+        <div class="t-gen"><span class="t-gen">Comédia</span></div>
+        <div class="t-audio"><span>Dublado</span></div>
+      </div>
+    </div>
+
+    <div class="poster"><a href="https://gofilmes.me/series/montecristo"
+        title="Assistir Montecristo Online Dublado"><img class="mp" src="./src/img/montecristo.jpg" loading="lazy"
+          decoding="async" width="117" height="175" alt="Imagem Montecristo">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a>
+      <div class="ano">2024</div>
+      <div class="rate"><i class=" star fas fa-star"></i>5.7</div><a class="t"
+        href="https://gofilmes.me/series/montecristo">Montecristo</a>
+      <div class="details"><span class="t-tit">Montecristo</span>
+        <div class="t-bar"><span class="t-ano">2024</span><span class="t-tempo">55 min</span><span
+            class="t-imdb"><strong>IMDb: </strong>5.7</span></div><span class="t-sin">Segue Alejandro Montecristo, uma
+          figura enigmática, fundador e CEO de uma nova tecnologia, que explode aos olhos do público e levanta
+          preocupações por causa das origens misteriosas de sua fortuna.</span>
+        <div class="t-gen"><span class="t-gen">Drama</span><span class="t-gen">Suspense</span></div>
+        <div class="t-audio"><span>Dublado</span></div>
+      </div>
+    </div>
+
+    <div class="poster"><a href="https://gofilmes.me/series/mediocres" title="Assistir Medíocres Online Dublado"><img
+          class="mp" src="./src/img/mediocre.jpg" loading="lazy" decoding="async" width="117" height="175"
+          alt="Imagem Medíocres">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a>
+      <div class="ano">2021</div>
+      <div class="rate"><i class=" star fas fa-star"></i>8.2</div><a class="t"
+        href="https://gofilmes.me/series/mediocres">Medíocres</a>
+      <div class="details"><span class="t-tit">Medíocres</span>
+        <div class="t-bar"><span class="t-ano">2021</span><span class="t-tempo">30 min</span><span
+            class="t-imdb"><strong>IMDb: </strong>8.2</span></div><span class="t-sin">Enfrentando a decadência e a falta
+          de humor, a protagonista se vê compelida a contratar uma jovem estrela da internet para lhe escrever novas
+          piadas, mas as duas se odeiam ?nbsp; primeira vista. Entretanto, o desprezo de uma pela outra logo acaba se
+          revelando o ingrediente ideal para uma boa parceria.</span>
+        <div class="t-gen"><span class="t-gen">Comédia</span><span class="t-gen">Drama</span></div>
+        <div class="t-audio"><span>Dublado</span></div>
+      </div>
+    </div>
+
+    <div class="poster"><a href="https://gofilmes.me/series/dom" title="Assistir Dom Online Dublado"><img class="mp"
+          src="./src/img/dom.jpg" loading="lazy" decoding="async" width="117" height="175" alt="Imagem Dom">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a>
+      <div class="ano">2021</div>
+      <div class="rate"><i class=" star fas fa-star"></i>6.8</div><a class="t"
+        href="https://gofilmes.me/series/dom">Dom</a>
+      <div class="details"><span class="t-tit">Dom</span>
+        <div class="t-bar"><span class="t-ano">2021</span><span class="t-tempo">60 min</span><span
+            class="t-imdb"><strong>IMDb: </strong>6.8</span></div><span class="t-sin">A jornada de pai e filho que
+          seguiram caminhos totalmente opostos, frequentemente espelhando e complementando um ao outro, enquanto ambos
+          lidam com situações que deixam a linha entre certo e errado cada vez mais tênue.</span>
+        <div class="t-gen"><span class="t-gen">Crime</span><span class="t-gen">Drama</span></div>
+        <div class="t-audio"><span>Dublado</span></div>
+      </div>
+    </div>
+
+    <div class="poster"><a href="https://gofilmes.me/series/search-party"
+        title="Assistir Search Party Online Dublado"><img class="mp" src="./src/img/search-party.jpg" loading="lazy"
+          decoding="async" width="117" height="175" alt="Imagem Search Party">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a>
+      <div class="ano">2016</div>
+      <div class="rate"><i class=" star fas fa-star"></i>7.6</div><a class="t"
+        href="https://gofilmes.me/series/search-party">Search Party</a>
+      <div class="details"><span class="t-tit">Search Party</span>
+        <div class="t-bar"><span class="t-ano">2016</span><span class="t-tempo">24 min</span><span
+            class="t-imdb"><strong>IMDb: </strong>7.6</span></div><span class="t-sin">Uma comédia sombria sobre quatro
+          jovens egoístas que se envolvem em um mistério sinistro quando um ex-colega de faculdade desaparece de
+          repente.</span>
+        <div class="t-gen"><span class="t-gen">Comédia</span><span class="t-gen">Crime</span><span
+            class="t-gen">Drama</span></div>
+        <div class="t-audio"><span>Dublado</span></div>
+      </div>
+    </div>
+
+    <div class="poster"><a href="https://gofilmes.me/series/scream-queens"
+        title="Assistir Scream Queens Online Dublado"><img class="mp" src="./src/img/scream-queens.jpg" loading="lazy"
+          decoding="async" width="117" height="175" alt="Imagem Scream Queens">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a>
+      <div class="ano">2015</div>
+      <div class="rate"><i class=" star fas fa-star"></i>7.1</div><a class="t"
+        href="https://gofilmes.me/series/scream-queens">Scream Queens</a>
+      <div class="details"><span class="t-tit">Scream Queens</span>
+        <div class="t-bar"><span class="t-ano">2015</span><span class="t-tempo">45 min</span><span
+            class="t-imdb"><strong>IMDb: </strong>7.1</span></div><span class="t-sin">A Kappa House, fraternidade mais
+          concorrida da Universidade Wallace, tem como membros a elite da escola. Vinte anos depois que uma misteriosa
+          morte abalou a universidade, uma série de assassinatos começa a ocorrer.</span>
+        <div class="t-gen"><span class="t-gen">Comédia</span><span class="t-gen">Mistério</span></div>
+        <div class="t-audio"><span>Dublado</span></div>
+      </div>
+    </div>
+
+    <div class="poster"><a href="https://gofilmes.me/series/alem-da-margem-outer-range"
+        title="Assistir Além da Margem (Outer Range) Online Dublado"><img class="mp" src="./src/img/alem-da-margem.jpg"
+          loading="lazy" decoding="async" width="117" height="175" alt="Imagem Além da Margem (Outer Range)">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a>
+      <div class="ano">2022</div>
+      <div class="rate"><i class=" star fas fa-star"></i>7.8</div><a class="t"
+        href="https://gofilmes.me/series/alem-da-margem-outer-range">Além da Margem (Outer Range)</a>
+      <div class="details"><span class="t-tit">Além da Margem (Outer Range)</span>
+        <div class="t-bar"><span class="t-ano">2022</span><span class="t-tempo">50 min</span><span
+            class="t-imdb"><strong>IMDb: </strong>7.8</span></div><span class="t-sin">No Oeste Americano, o fazendeiro
+          Royal está lutando por sua terra e família quando entra em um confronto com os limites da realidade e do mundo
+          cósmico em uma batalha com o desconhecido.</span>
+        <div class="t-gen"><span class="t-gen">Drama</span><span class="t-gen">Mistério</span></div>
+        <div class="t-audio"><span>Dublado</span></div>
+      </div>
+    </div>
+
+    <div class="poster"><a href="https://gofilmes.me/series/the-gathering"
+        title="Assistir The Gathering Online Legendado"><img class="mp" src="./src/img/the-gathering.jpg" loading="lazy"
+          decoding="async" width="117" height="175" alt="Imagem The Gathering">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a>
+      <div class="ano">2024</div>
+      <div class="rate"><i class=" star fas fa-star"></i>7.1</div><a class="t"
+        href="https://gofilmes.me/series/the-gathering">The Gathering</a>
+      <div class="details"><span class="t-tit">The Gathering</span>
+        <div class="t-bar"><span class="t-ano">2024</span><span class="t-tempo">46 min</span><span
+            class="t-imdb"><strong>IMDb: </strong>7.1</span></div><span class="t-sin">O violento ataque a uma
+          adolescente em uma ilhota de maré em que um grupo de adolescentes de origens diferentes, cada um dos quais
+          poderia ter cometido o crime, juntamente com seus pais.</span>
+        <div class="t-gen"><span class="t-gen">Crime</span><span class="t-gen">Drama</span></div>
+        <div class="t-audio"><span>Legendado</span></div>
+      </div>
+
+    </div>
+    <div class="poster"><a href="https://gofilmes.me/series/the-8-show"
+        title="Assistir The 8 Show Online Legendado"><img class="mp" src="./src/img/the-8-show.jpg" loading="lazy"
+          decoding="async" width="117" height="175" alt="Imagem The 8 Show">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a>
+      <div class="ano">2024</div>
+      <div class="rate"><i class=" star fas fa-star"></i>7.3</div><a class="t"
+        href="https://gofilmes.me/series/the-8-show">The 8 Show</a>
+      <div class="details"><span class="t-tit">The 8 Show</span>
+        <div class="t-bar"><span class="t-ano">2024</span><span class="t-tempo">60 min</span><span
+            class="t-imdb"><strong>IMDb: </strong>7.3</span></div><span class="t-sin">Oito pessoas presas em um
+          misterioso prédio de oito andares participam de um programa tentador, mas muito perigoso, que dá dinheiro
+          conforme o tempo passa.</span>
+        <div class="t-gen"><span class="t-gen">Comédia</span><span class="t-gen">Drama</span><span
+            class="t-gen">Mistério</span></div>
+        <div class="t-audio"><span>Legendado</span></div>
+      </div>
+    </div>
+
+    <div class="poster"><a href="https://gofilmes.me/series/fire-country"
+        title="Assistir Fire Country Online Dublado e Legendado"><img class="mp" src="./src/img/fire-country.jpg"
+          loading="lazy" decoding="async" width="117" height="175" alt="Imagem Fire Country">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a>
+      <div class="ano">2022</div>
+      <div class="rate"><i class=" star fas fa-star"></i>7.2</div><a class="t"
+        href="https://gofilmes.me/series/fire-country">Fire Country</a>
+      <div class="details"><span class="t-tit">Fire Country</span>
+        <div class="t-bar"><span class="t-ano">2022</span><span class="t-tempo">44 min</span><span
+            class="t-imdb"><strong>IMDb: </strong>7.2</span></div><span class="t-sin">Buscando redenção e uma pena de
+          prisão reduzida, o jovem condenado Bode Donovan (Max Thieriot) se junta a um programa de combate a incêndios.
+          Fato que o leva de volta ?nbsp; sua pequena cidade natal no Norte da Califórnia, onde ele e outros presos
+          trabalham ao lado de bombeiros de elite para extinguir grandes incêndios em toda a região.</span>
+        <div class="t-gen"><span class="t-gen">Drama</span></div>
+        <div class="t-audio"><span>Dublado e Legendado</span></div>
+      </div>
+    </div>
+
+    <div class="poster"><a href="https://gofilmes.me/series/el-refugio" title="Assistir El Refugio Online Dublado"><img
+          class="mp" src="./src/img/el-refugio.jpg" loading="lazy" decoding="async" width="117" height="175"
+          alt="Imagem El Refugio">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a>
+      <div class="ano">2022</div>
+      <div class="rate"><i class=" star fas fa-star"></i>5.6</div><a class="t"
+        href="https://gofilmes.me/series/el-refugio">El Refugio</a>
+      <div class="details"><span class="t-tit">El Refugio</span>
+        <div class="t-bar"><span class="t-ano">2022</span><span class="t-tempo">39 min</span><span
+            class="t-imdb"><strong>IMDb: </strong>5.6</span></div><span class="t-sin">Uma família vivencia fenômenos
+          inusitados através de suas telas, causados por uma força da natureza não identificada. Os pais devem proteger
+          seus filhos de um inimigo invisível. Seu rancho será seu último refúgio e o da humanidade?</span>
+        <div class="t-gen"><span class="t-gen">Drama</span><span class="t-gen">Sci-Fi</span><span
+            class="t-gen">Suspense</span></div>
+        <div class="t-audio"><span>Dublado</span></div>
+      </div>
+    </div>
+
+    <div class="poster"><a href="https://gofilmes.me/series/new-girl" title="Assistir New Girl Online Dublado"><img
+          class="mp" src="./src/img/new-girl.jpg" loading="lazy" decoding="async" width="117" height="175"
+          alt="Imagem New Girl">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a>
+      <div class="ano">2011</div>
+      <div class="rate"><i class=" star fas fa-star"></i>7.8</div><a class="t"
+        href="https://gofilmes.me/series/new-girl">New Girl</a>
+      <div class="details"><span class="t-tit">New Girl</span>
+        <div class="t-bar"><span class="t-ano">2011</span><span class="t-tempo">22 min</span><span
+            class="t-imdb"><strong>IMDb: </strong>7.8</span></div><span class="t-sin">Depois de romper com seu
+          relacionamento, Jess se muda para um apartamento com três homens solteiros.</span>
+        <div class="t-gen"><span class="t-gen">Comédia</span><span class="t-gen">Romance</span></div>
+        <div class="t-audio"><span>Dublado</span></div>
+      </div>
+    </div>
+
+    <div class="poster"><a href="https://gofilmes.me/series/bridgerton" title="Assistir Bridgerton Online Dublado"><img
+          class="mp" src="./src/img/bridgerton.jpg" loading="lazy" decoding="async" width="117" height="175"
+          alt="Imagem Bridgerton">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a>
+      <div class="ano">2020</div>
+      <div class="rate"><i class=" star fas fa-star"></i>7.4</div><a class="t"
+        href="https://gofilmes.me/series/bridgerton">Bridgerton</a>
+      <div class="details"><span class="t-tit">Bridgerton</span>
+        <div class="t-bar"><span class="t-ano">2020</span><span class="t-tempo">60 min</span><span
+            class="t-imdb"><strong>IMDb: </strong>7.4</span></div><span class="t-sin">Bridgerton apresenta o mundo
+          sensual, luxuoso e competitivo da alta sociedade de Londres do século 19. Na época, a família Bridgerton,
+          composta por oito irmãos, se esforça para lidar com o mercado de casamentos, os bailes suntuosos de Mayfair e
+          os palácios aristocráticos de Park Lane. </span>
+        <div class="t-gen"><span class="t-gen">Drama</span><span class="t-gen">Romance</span></div>
+        <div class="t-audio"><span>Dublado</span></div>
+      </div>
+    </div>
+
+    <div class="poster"><a href="https://gofilmes.me/series/the-big-cigar-a-fuga"
+        title="Assistir The Big Cigar: a Fuga Online Dublado"><img class="mp" src="./src/img/the-big-cigar-a-furia.jpg"
+          loading="lazy" decoding="async" width="117" height="175" alt="Imagem The Big Cigar: a Fuga">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a>
+      <div class="ano">2024</div>
+      <div class="rate"><i class=" star fas fa-star"></i>6,6</div><a class="t"
+        href="https://gofilmes.me/series/the-big-cigar-a-fuga">The Big Cigar: a Fuga</a>
+      <div class="details"><span class="t-tit">The Big Cigar: a Fuga</span>
+        <div class="t-bar"><span class="t-ano">2024</span><span class="t-tempo">40 min</span><span
+            class="t-imdb"><strong>IMDb: </strong>6,6</span></div><span class="t-sin">O co-fundador do Partido dos
+          Panteras Negras, Huey P. Newton, recruta um aliado improvável, o produtor de Hollywood, Bert Schneider, para
+          escapar de uma perseguição do FBI e fugir para Cuba.</span>
+        <div class="t-gen"><span class="t-gen">Drama</span><span class="t-gen">Suspense</span></div>
+        <div class="t-audio"><span>Dublado</span></div>
+      </div>
+    </div>
+
+    <div class="poster"><a href="https://gofilmes.me/series/fiasco" title="Assistir Fiasco Online Dublado"><img
+          class="mp" src="./src/img/fiasco.jpg" loading="lazy" decoding="async" width="117" height="175"
+          alt="Imagem Fiasco">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a>
+      <div class="ano">2024</div>
+      <div class="rate"><i class=" star fas fa-star"></i>6.4</div><a class="t"
+        href="https://gofilmes.me/series/fiasco">Fiasco</a>
+      <div class="details"><span class="t-tit">Fiasco</span>
+        <div class="t-bar"><span class="t-ano">2024</span><span class="t-tempo">40 min</span><span
+            class="t-imdb"><strong>IMDb: </strong>6.4</span></div><span class="t-sin">O set de um diretor novato vira um
+          caos, e a equipe que filma os bastidores registra tudo, incluindo acidentes, chantagens e sabotagens.</span>
+        <div class="t-gen"><span class="t-gen">Comédia</span></div>
+        <div class="t-audio"><span>Dublado</span></div>
+      </div>
+    </div>
+
+    <div class="poster"><a href="https://gofilmes.me/series/a-nova-super-maquina"
+        title="Assistir A Nova Super Máquina Online Dublado"><img class="mp" src="./src/img/a-nova-super-maquina.jpg"
+          loading="lazy" decoding="async" width="117" height="175" alt="Imagem A Nova Super Máquina">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a>
+      <div class="ano">2008</div>
+      <div class="rate"><i class=" star fas fa-star"></i>5.6</div><a class="t"
+        href="https://gofilmes.me/series/a-nova-super-maquina">A Nova Super Máquina</a>
+      <div class="details"><span class="t-tit">A Nova Super Máquina</span>
+        <div class="t-bar"><span class="t-ano">2008</span><span class="t-tempo">60 min</span><span
+            class="t-imdb"><strong>IMDb: </strong>5.6</span></div><span class="t-sin">Um ex-guarda florestal do
+          Exército, um agente do FBI e uma jovem procuram os culpados que querem o carro de combate ao crime
+          KITT.</span>
+        <div class="t-gen"><span class="t-gen">Ação</span><span class="t-gen">Aventura</span></div>
+        <div class="t-audio"><span>Dublado</span></div>
+      </div>
+    </div>
+
+    <div class="poster"><a href="https://gofilmes.me/series/proximo" title="Assistir Próximo! Online Dublado"><img
+          class="mp" src="./src/img/proximo.jpg" loading="lazy" decoding="async" width="117" height="175"
+          alt="Imagem Próximo!">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a>
+      <div class="ano">2024</div>
+      <div class="rate"><i class=" star fas fa-star"></i>5.8</div><a class="t"
+        href="https://gofilmes.me/series/proximo">Próximo!</a>
+      <div class="details"><span class="t-tit">Próximo!</span>
+        <div class="t-bar"><span class="t-ano">2024</span><span class="t-tempo">45 min</span><span
+            class="t-imdb"><strong>IMDb: </strong>5.8</span></div><span class="t-sin">Depois de passar pela dor de seu
+          primeiro amor, que terminou em traição, Leyla Taylan, uma advogada bem-sucedida, tornou-se a representante da
+          famosa terceira esposa, Tuba Tepelioglu, em um caso considerado o "caso de divórcio do ano".</span>
+        <div class="t-gen"><span class="t-gen">Comédia</span><span class="t-gen">Drama</span><span
+            class="t-gen">Romance</span></div>
+        <div class="t-audio"><span>Dublado</span></div>
+      </div>
+    </div>
+
+    <div class="poster"><a href="https://gofilmes.me/series/pretty-little-liars-um-novo-pecado"
+        title="Assistir Pretty Little Liars: Um Novo Pecado Online Dublado"><img class="mp"
+          src="./src/img/pretty-little-liars-um-novo-pecado.jpg" loading="lazy" decoding="async" width="117"
+          height="175" alt="Imagem Pretty Little Liars: Um Novo Pecado">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a>
+      <div class="ano">2022</div>
+      <div class="rate"><i class=" star fas fa-star"></i>7.0</div><a class="t"
+        href="https://gofilmes.me/series/pretty-little-liars-um-novo-pecado">Pretty Little Liars: Um Novo Pecado</a>
+      <div class="details"><span class="t-tit">Pretty Little Liars: Um Novo Pecado</span>
+        <div class="t-bar"><span class="t-ano">2022</span><span class="t-tempo">50 min</span><span
+            class="t-imdb"><strong>IMDb: </strong>7.0</span></div><span class="t-sin">Vinte anos atrás, uma série de
+          eventos trágicos quase assolou a cidade de Millwood. Agora, atualmente, um novo grupo de adolescentes muito
+          diferentes se vê atormentado por um agressor desconhecido, o misterioso "A".</span>
+        <div class="t-gen"><span class="t-gen">Drama</span><span class="t-gen">Suspense</span></div>
+        <div class="t-audio"><span>Dublado</span></div>
+      </div>
+    </div>
+
+    <div class="poster"><a href="https://gofilmes.me/series/animal-control"
+        title="Assistir Animal Control Online Legendado"><img class="mp" src="./src/img/animal-control.jpg"
+          loading="lazy" decoding="async" width="117" height="175" alt="Imagem Animal Control">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a>
+      <div class="ano">2023</div>
+      <div class="rate"><i class=" star fas fa-star"></i>6.7</div><a class="t"
+        href="https://gofilmes.me/series/animal-control">Animal Control</a>
+      <div class="details"><span class="t-tit">Animal Control</span>
+        <div class="t-bar"><span class="t-ano">2023</span><span class="t-tempo">22 min</span><span
+            class="t-imdb"><strong>IMDb: </strong>6.7</span></div><span class="t-sin">Um grupo de funcionários do
+          controle de animais começa a ver suas vidas complicadas pelos humanos e não tanto pelos animais.</span>
+        <div class="t-gen"><span class="t-gen">Comédia</span></div>
+        <div class="t-audio"><span>Legendado</span></div>
+      </div>
+    </div>
+
+    <div class="poster"><a href="https://gofilmes.me/series/bodkin" title="Assistir Bodkin Online Dublado"><img
+          class="mp" src="./src/img/bodkin.jpg" loading="lazy" decoding="async" width="117" height="175"
+          alt="Imagem Bodkin">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a>
+      <div class="ano">2024</div>
+      <div class="rate"><i class=" star fas fa-star"></i>7.1</div><a class="t"
+        href="https://gofilmes.me/series/bodkin">Bodkin</a>
+      <div class="details"><span class="t-tit">Bodkin</span>
+        <div class="t-bar"><span class="t-ano">2024</span><span class="t-tempo">45 min</span><span
+            class="t-imdb"><strong>IMDb: </strong>7.1</span></div><span class="t-sin">Um grupo de podcasters se propõe a
+          investigar o misterioso desaparecimento de três estranhos em uma idílica cidade irlandesa. Mas quando eles
+          começam a mexer os pauzinhos, descobrem uma história muito maior e mais estranha.</span>
+        <div class="t-gen"><span class="t-gen">Comédia</span><span class="t-gen">Drama</span><span
+            class="t-gen">Suspense</span></div>
+        <div class="t-audio"><span>Dublado</span></div>
+      </div>
+    </div>
+
+    <div class="poster"><a href="https://gofilmes.me/series/maxton-hall-o-mundo-entre-nos"
+        title="Assistir Maxton Hall: O Mundo Entre Nós Online Dublado"><img class="mp"
+          src="./src/img/maxton-hall-o-mundo-entre-nos.jpg" loading="lazy" decoding="async" width="117" height="175"
+          alt="Imagem Maxton Hall: O Mundo Entre Nós">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a>
+      <div class="ano">2024</div>
+      <div class="rate"><i class=" star fas fa-star"></i>6.8</div><a class="t"
+        href="https://gofilmes.me/series/maxton-hall-o-mundo-entre-nos">Maxton Hall: O Mundo Entre Nós</a>
+      <div class="details"><span class="t-tit">Maxton Hall: O Mundo Entre Nós</span>
+        <div class="t-bar"><span class="t-ano">2024</span><span class="t-tempo">45 min</span><span
+            class="t-imdb"><strong>IMDb: </strong>6.8</span></div><span class="t-sin">A perspicaz estudante bolsista
+          Ruby testemunha, sem querer, um segredo em Maxton Hall. O arrogante herdeiro milionário James está determinado
+          a silenciá-la, mas seu confronto acende uma faísca inesperada entre eles.</span>
+        <div class="t-gen"><span class="t-gen">Drama</span><span class="t-gen">Romance</span></div>
+        <div class="t-audio"><span>Dublado</span></div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="h-2">
+    <h2>Coleções&nbsp;<a class="vt" href="./genero/lançamento/filme.html" title="Ver todos os Lançamentos">
+        <i class="fas fa-fast-forward"></i>
+      </a></h2>
+    <a class="vt" href="https://gofilmes.me/colecao/" title="Listar todos as coleções"></a>
+  </div>
+  <div class="box">
+    <div class="poster2"><a href="https://gofilmes.me/colecao/crepusculo"
+        title="Coleção Crepúsculo  - Todos os filmes"><img class="mp" src="./src/img/crepusculo.jpg" loading="lazy"
+          decoding="async" width="220" height="auto" alt="Imagem Crepúsculo">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a><a class="t" href="https://gofilmes.me/colecao/crepusculo">Crepúsculo</a></div>
+
+    <div class="poster2"><a href="https://gofilmes.me/colecao/resident-evil"
+        title="Coleção Resident Evil  - Todos os filmes"><img class="mp" src="./src/img/resident-evil.jpg"
+          loading="lazy" decoding="async" width="220" height="auto" alt="Imagem Resident Evil">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a><a class="t" href="https://gofilmes.me/colecao/resident-evil">Resident Evil</a></div>
+
+    <div class="poster2"><a href="https://gofilmes.me/colecao/o-exterminador-do-futuro"
+        title="Coleção O Exterminador do Futuro  - Todos os filmes"><img class="mp"
+          src="./src/img/o-exterminador-do-futuro.jpg" loading="lazy" decoding="async" width="220" height="auto"
+          alt="Imagem O Exterminador do Futuro">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a><a class="t" href="https://gofilmes.me/colecao/o-exterminador-do-futuro">O Exterminador do Futuro</a></div>
+
+    <div class="poster2"><a href="https://gofilmes.me/colecao/toy-story"
+        title="Coleção Toy Story  - Todos os filmes"><img class="mp" src="./src/img/toy-story.jpg" loading="lazy"
+          decoding="async" width="220" height="auto" alt="Imagem Toy Story">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a><a class="t" href="https://gofilmes.me/colecao/toy-story">Toy Story</a></div>
+
+    <div class="poster2"><a href="https://gofilmes.me/colecao/matrix" title="Coleção Matrix  - Todos os filmes"><img
+          class="mp" src="./src/img/matrix.jpg" loading="lazy" decoding="async" width="220" height="auto"
+          alt="Imagem Matrix">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a><a class="t" href="https://gofilmes.me/colecao/matrix">Matrix</a></div>
+
+    <div class="poster2"><a href="https://gofilmes.me/colecao/atividade-paranormal"
+        title="Coleção Atividade Paranormal  - Todos os filmes"><img class="mp" src="./src/img/atividade-paranormal.jpg"
+          loading="lazy" decoding="async" width="220" height="auto" alt="Imagem Atividade Paranormal">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a><a class="t" href="https://gofilmes.me/colecao/atividade-paranormal">Atividade Paranormal</a></div>
+
+    <div class="poster2"><a href="https://gofilmes.me/colecao/american-pie"
+        title="Coleção American Pie  - Todos os filmes"><img class="mp" src="./src/img/american-pie.jpg" loading="lazy"
+          decoding="async" width="220" height="auto" alt="Imagem American Pie">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a><a class="t" href="https://gofilmes.me/colecao/american-pie">American Pie</a></div>
+
+    <div class="poster2"><a href="https://gofilmes.me/colecao/jurassic-park"
+        title="Coleção Jurassic Park  - Todos os filmes"><img class="mp" src="./src/img/jurassic-park.jpg"
+          loading="lazy" decoding="async" width="220" height="auto" alt="Imagem Jurassic Park">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a><a class="t" href="https://gofilmes.me/colecao/jurassic-park">Jurassic Park</a></div>
+
+    <div class="poster2"><a href="https://gofilmes.me/colecao/transformers"
+        title="Coleção Transformers  - Todos os filmes"><img class="mp" src="./src/img/transformers.jpg" loading="lazy"
+          decoding="async" width="220" height="auto" alt="Imagem Transformers">
+        <div class="play"><a class="playcine" href="#"><i class="fas fa-play"></i></a></div>
+      </a><a class="t" href="https://gofilmes.me/colecao/transformers">Transformers</a></div>
+  </div>
+
+
+
+
+
+
+
+  <script src="./src/js/all.min.js"></script>
+  <script src="./src/js/script.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+  <script type="text/javascript">
+    $('.main-carousel').flickity({
+      // options
+      cellAlign: 'left',
+      wrapAround: true,
+      freeScroll: true
+    });
+  </script>
+
+</body>
+
+</html>
